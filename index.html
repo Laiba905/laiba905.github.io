@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laiba Shehzadi | Software & Automation Engineer</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            500: '#8b5cf6',
+                            600: '#7c3aed',
+                            700: '#6d28d9',
+                            900: '#4c1d95',
+                        },
+                        darkBg: '#090d16',
+                        cardBg: '#111827'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#090d16] text-slate-100 font-sans antialiased selection:bg-purple-500 selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-[#090d16]/85 backdrop-blur-xl border-b border-slate-800/80 shadow-lg shadow-purple-950/20">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-black bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent tracking-tight">LAIBA.DEV</a>
+            <nav class="hidden md:flex space-x-7 font-medium text-sm text-slate-300">
+                <a href="#about" class="hover:text-purple-400 transition">About</a>
+                <a href="#skills" class="hover:text-purple-400 transition">Skills & Stack</a>
+                <a href="#projects" class="hover:text-purple-400 transition">Projects</a>
+                <a href="#experience" class="hover:text-purple-400 transition">Experience</a>
+                <a href="#certifications" class="hover:text-purple-400 transition">Certifications</a>
+                <a href="#contact" class="hover:text-purple-400 transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / About Section -->
+    <section id="about" class="py-28 relative overflow-hidden bg-gradient-to-b from-[#111827] via-[#090d16] to-[#090d16]">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-600/10 rounded-full blur-[140px] pointer-events-none"></div>
+        <div class="max-w-4xl mx-auto text-center px-4 relative z-10">
+            <div class="inline-flex items-center space-x-2 bg-purple-500/10 text-purple-300 border border-purple-500/30 px-4 py-1.5 rounded-full text-xs font-semibold mb-6 shadow-inner">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                <span>Open for Full-time & Remote Roles</span>
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 tracking-tight">
+                Hi, I'm <span class="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">Laiba Shehzadi</span>
+            </h1>
+            <p class="text-lg md:text-xl text-purple-200/80 mb-6 font-medium">
+                Flutter Mobile Developer • Web Developer • n8n Automation & AI Agent Engineer
+            </p>
+            <p class="text-slate-400 max-w-2xl mx-auto leading-relaxed mb-10 text-base">
+                Final-year BS-IT undergrad at University of the Punjab / FG Post Graduate College, turning complex domain logic into high-performing cross-platform mobile apps, enterprise web portals, and autonomous RAG/AI workflow pipelines.
+            </p>
+            <!-- Social Links -->
+            <div class="flex justify-center space-x-4">
+                <a href="https://github.com/Laiba905" target="_blank" class="bg-slate-800 text-white border border-slate-700 px-6 py-3 rounded-full flex items-center space-x-2 hover:bg-slate-700 hover:border-purple-500/50 transition shadow-lg text-sm font-medium">
+                    <i class="fab fa-github text-base text-purple-400"></i> <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/laibashehzadi905/" target="_blank" class="bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-6 py-3 rounded-full flex items-center space-x-2 hover:opacity-95 transition shadow-lg shadow-purple-600/30 text-sm font-medium">
+                    <i class="fab fa-linkedin text-base"></i> <span>LinkedIn</span>
+                </a>
+                <a href="#projects" class="bg-slate-900/80 text-cyan-300 border border-cyan-500/40 px-6 py-3 rounded-full flex items-center space-x-2 hover:bg-cyan-500/10 transition shadow-lg text-sm font-medium">
+                    <i class="fas fa-layer-group text-cyan-400 text-base"></i> <span>Explore Work</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Education Section -->
+    <section id="skills" class="py-20 max-w-6xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Technical Stack -->
+            <div class="bg-[#111827]/90 p-8 rounded-2xl border border-slate-800/90 shadow-2xl backdrop-blur-sm">
+                <h2 class="text-xl font-bold text-white mb-6 flex items-center">
+                    <span class="w-9 h-9 rounded-xl bg-purple-500/20 text-purple-400 border border-purple-500/30 flex items-center justify-center mr-3 text-sm"><i class="fas fa-laptop-code"></i></span>
+                    Technical Skill Matrix
+                </h2>
+                <div class="space-y-5">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-purple-400/90 block mb-2.5">Mobile & Cross-Platform</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Flutter</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Dart</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Firebase</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Supabase</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Rest APIs</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">UI/UX</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">State Management</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Hive DB</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">SQLite</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">PostgreSQL</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Cloudinary</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Shared Prefrences</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Google Drive Backup</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Play Store OAuth</span>
+                            <span class="bg-purple-500/10 text-purple-300 border border-purple-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Playstore Deployment</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-cyan-400/90 block mb-2.5">Web Development</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Django</span>
+                            <span class="bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Python</span>
+                            <span class="bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">SQLite / MySQL</span>
+                            <span class="bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Apache Superset</span>
+                            <span class="bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">HTML5 & CSS3</span>
+                            <span class="bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">JavaScript (ES6)</span>
+                            <span class="bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">RBAC</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-emerald-400/90 block mb-2.5">AI, Automation & Tools</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">n8n Automation</span>
+                            <span class="bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">AI Agents</span>
+                            <span class="bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Groq LLM / Chat API</span>
+                            <span class="bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Pinecone (RAG / Vector DB)</span>
+                            <span class="bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Google Gemini AI</span>
+                            <span class="bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-semibold px-3 py-1.5 rounded-lg text-xs">Git & GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education & Specialized Training Summary -->
+            <div class="bg-[#111827]/90 p-8 rounded-2xl border border-slate-800/90 shadow-2xl backdrop-blur-sm flex flex-col justify-between">
+                <div>
+                    <h2 class="text-xl font-bold text-white mb-6 flex items-center">
+                        <span class="w-9 h-9 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 flex items-center justify-center mr-3 text-sm"><i class="fas fa-graduation-cap"></i></span>
+                        Education & Specialized Training
+                    </h2>
+                    <div class="space-y-6">
+                        <div class="border-l-2 border-purple-500 pl-4">
+                            <div class="flex items-center space-x-2">
+                                <h3 class="text-sm font-bold text-white">BS in Information Technology (8th Semester)</h3>
+                                <span class="text-[10px] bg-purple-500/20 text-purple-300 px-2 py-0.5 rounded-full border border-purple-500/30">AFYP Track</span>
+                            </div>
+                            <p class="text-xs text-purple-400 font-medium">FG Post Graduate College / University of the Punjab</p>
+                            <p class="text-xs text-slate-400 mt-0.5">Final Year • Rawalpindi, Pakistan</p>
+                        </div>
+                        <div class="border-l-2 border-cyan-500 pl-4">
+                            <h3 class="text-sm font-bold text-white">HEC National IT Skill Competency Test (NSCT)</h3>
+                            <p class="text-xs text-cyan-400 font-medium">Qualified Competency Holder</p>
+                        </div>
+                        <div class="border-l-2 border-emerald-500 pl-4">
+                            <h3 class="text-sm font-bold text-white">Mobile App Development Course</h3>
+                            <p class="text-xs text-emerald-400 font-medium">Bano Qabil Program</p>
+                            <p class="text-xs text-slate-400 mt-0.5">Completed (May 2026) • Cross-platform app engineering foundation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Internship Highlights Detail -->
+    <section id="experience" class="py-12 max-w-6xl mx-auto px-4">
+        <div class="bg-gradient-to-r from-purple-900/40 via-slate-900 to-cyan-900/40 text-white rounded-2xl p-8 border border-slate-800 shadow-2xl">
+            <h2 class="text-2xl font-bold mb-6 text-white flex items-center">
+                <i class="fas fa-briefcase text-purple-400 mr-3"></i> Hands-on Engineering & Internships
+            </h2>
+            <div class="grid md:grid-cols-3 gap-6 text-sm">
+                <div class="bg-slate-900/80 p-5 rounded-xl border border-purple-500/20">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="font-bold text-white text-base">Altaurux</span>
+                        <span class="text-xs bg-purple-500/20 text-purple-300 border border-purple-500/30 px-2.5 py-0.5 rounded-full">Remote</span>
+                    </div>
+                    <p class="text-xs text-purple-400 mb-2 font-medium">Software Engineering Intern (Jul–Sep 2026)</p>
+                    <p class="text-slate-300 text-xs leading-relaxed">Engineered production RAG search agents (Pinecone + Gemini), natural language Inventory management via Groq tool-calling, and event-driven email routing pipelines using n8n.</p>
+                </div>
+                <div class="bg-slate-900/80 p-5 rounded-xl border border-cyan-500/20">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="font-bold text-white text-base">NLC Headquarters</span>
+                        <span class="text-xs bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full">Onsite</span>
+                    </div>
+                    <p class="text-xs text-cyan-400 mb-2 font-medium">ICT Operations Intern (Aug–Oct 2026)</p>
+                    <p class="text-slate-300 text-xs leading-relaxed">Developed internal Django/SQLite facility booking portals with Role-Based Access Control (RBAC) and executive Apache Superset operational telemetry dashboards.</p>
+                </div>
+                <div class="bg-slate-900/80 p-5 rounded-xl border border-pink-500/20">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="font-bold text-white text-base">Alkhidmat</span>
+                        <span class="text-xs bg-pink-500/20 text-pink-300 border border-pink-500/30 px-2.5 py-0.5 rounded-full">Hybrid</span>
+                    </div>
+                    <p class="text-xs text-pink-400 mb-2 font-medium">Summer Internship Program (July-Aug 2026)</p>
+                    <p class="text-slate-300 text-xs leading-relaxed">Completed practical training sessions and emergency preparedness drills including CPR, First Aid, and Fire Safety protocols in Rawalpindi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Showcase Section with Domain Filtering -->
+    <section id="projects" class="py-16 max-w-6xl mx-auto px-4">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-extrabold text-white mb-3">Project Showcase by Domain</h2>
+            <p class="text-slate-400 text-sm max-w-xl mx-auto">Explore categorized production builds, AFYP final year mobile apps, enterprise web portals, and AI automation workflows.</p>
+            
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-2 mt-6" id="filter-buttons">
+                <button onclick="filterProjects('all')" class="filter-btn active-filter bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-5 py-2.5 rounded-full text-xs font-semibold transition shadow-lg shadow-purple-600/30">All Projects</button>
+                <button onclick="filterProjects('mobile')" class="filter-btn bg-slate-800 text-slate-300 border border-slate-700 px-5 py-2.5 rounded-full text-xs font-semibold hover:bg-slate-700 transition">Mobile & AFYP</button>
+                <button onclick="filterProjects('web')" class="filter-btn bg-slate-800 text-slate-300 border border-slate-700 px-5 py-2.5 rounded-full text-xs font-semibold hover:bg-slate-700 transition">Web Dev (Django/NLC)</button>
+                <button onclick="filterProjects('automation')" class="filter-btn bg-slate-800 text-slate-300 border border-slate-700 px-5 py-2.5 rounded-full text-xs font-semibold hover:bg-slate-700 transition">AI & n8n Automation</button>
+            </div>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="project-grid">
+
+            <!-- FYP Project: Digital Islamic Hub -->
+            <div class="project-card bg-[#111827] rounded-2xl shadow-xl border border-purple-500/30 overflow-hidden hover:border-purple-500 transition flex flex-col justify-between group" data-category="mobile">
+                <div>
+                    <div class="w-full bg-slate-950 p-4 flex justify-center items-center h-48 overflow-hidden relative">
+                        <img src="fyp.jpeg" alt="Digital Islamic Hub AFYP" class="h-full object-contain group-hover:scale-105 transition duration-500">
+                        <span class="absolute top-3 left-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-lg">AFYP • Final Year Project</span>
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white text-base">Digital Islamic Hub</h3>
+                            <span class="text-[10px] font-semibold bg-purple-500/20 text-purple-300 border border-purple-500/30 px-2.5 py-0.5 rounded-full">BS-IT FYP</span>
+                        </div>
+                        <p class="text-slate-400 text-xs mb-4 leading-relaxed">
+                            Academic Final Year Project (AFYP) cross-platform Islamic utility app featuring dynamic prayer times, digital Tasbih counter, Islamic AI guide, multi-translation Quran & Hadith reader with tafseer.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-5 pb-5 pt-0">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Flutter</span>
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Dart</span>
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Firebase</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: FinTrack -->
+            <div class="project-card bg-[#111827] rounded-2xl shadow-xl border border-slate-800/90 overflow-hidden hover:border-purple-500/50 transition flex flex-col justify-between group" data-category="mobile">
+                <div>
+                    <div class="w-full bg-slate-950 p-4 flex justify-center items-center h-48 overflow-hidden relative">
+                        <img src="fintrack.jpeg" alt="FinTrack App" class="h-full object-contain group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white text-base">FinTrack (Play Store)</h3>
+                            <span class="text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full">Published</span>
+                        </div>
+                        <p class="text-slate-400 text-xs mb-4 leading-relaxed">
+                            Offline-first personal expense tracker built with Flutter and Hive DB, featuring seamless Google Drive OAuth backup integration and published live on Google Play Store.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-5 pb-5 pt-0">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Flutter</span>
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Hive DB</span>
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Google Drive Backup</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: FitSense -->
+            <div class="project-card bg-[#111827] rounded-2xl shadow-xl border border-slate-800/90 overflow-hidden hover:border-purple-500/50 transition flex flex-col justify-between group" data-category="mobile">
+                <div>
+                    <div class="w-full bg-slate-950 p-4 flex justify-center items-center h-48 overflow-hidden relative">
+                        <img src="fitsense.jpeg" alt="FitSense App" class="h-full object-contain group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white text-base">FitSense Fitness Platform</h3>
+                            <span class="text-[10px] font-semibold bg-purple-500/20 text-purple-300 border border-purple-500/30 px-2.5 py-0.5 rounded-full">Multi-Role</span>
+                        </div>
+                        <p class="text-slate-400 text-xs mb-4 leading-relaxed">
+                            Cross-platform fitness app architecture supporting User, Trainer, Nutritionist, Gym Owner, and Admin workflows with multi-day workout builder, 1RM calculators (Epley/Brzycki), and South Asian macro scaling.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-5 pb-5 pt-0">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Flutter</span>
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Dart</span>
+                        <span class="text-[11px] font-medium bg-purple-500/10 text-purple-300 border border-purple-500/20 px-2.5 py-0.5 rounded-md">Supbase</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Conference Rooms Management System (NLC) -->
+            <div class="project-card bg-[#111827] rounded-2xl shadow-xl border border-slate-800/90 overflow-hidden hover:border-cyan-500/50 transition flex flex-col justify-between group" data-category="web">
+                <div>
+                    <div class="w-full bg-slate-950 p-4 flex justify-center items-center h-48 overflow-hidden relative">
+                        <img src="crs.png" alt="NLC Conference Room Portal" class="h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white text-base">Conference Rooms Mgmt (NLC)</h3>
+                            <span class="text-[10px] font-semibold bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 px-2.5 py-0.5 rounded-full">Web / RBAC</span>
+                        </div>
+                        <p class="text-slate-400 text-xs mb-4 leading-relaxed">
+                            Role-based facility portal built with Django, SQLite, HTML/CSS/JS featuring Requester/Manager review flows, calendar room booking, facility tagging, and Apache Superset telemetry tracking (43+ bookings).
+                        </p>
+                    </div>
+                </div>
+                <div class="px-5 pb-5 pt-0">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-[11px] font-medium bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 px-2.5 py-0.5 rounded-md">Django</span>
+                        <span class="text-[11px] font-medium bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 px-2.5 py-0.5 rounded-md">Apache Superset</span>
+                        <span class="text-[11px] font-medium bg-cyan-500/10 text-cyan-300 border border-cyan-500/20 px-2.5 py-0.5 rounded-md">SQLite / RBAC</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5: AI Inventory Management System -->
+            <div class="project-card bg-[#111827] rounded-2xl shadow-xl border border-slate-800/90 overflow-hidden hover:border-emerald-500/50 transition flex flex-col justify-between group" data-category="automation">
+                <div>
+                    <div class="w-full bg-slate-950 p-4 flex justify-center items-center h-48 overflow-hidden relative">
+                        <img src="inv_mgmt_sys.jpeg" alt="AI Inventory n8n" class="h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white text-base">AI Inventory Agent (Altaurux)</h3>
+                            <span class="text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full">n8n / Groq</span>
+                        </div>
+                        <p class="text-slate-400 text-xs mb-4 leading-relaxed">
+                            Natural language inventory assistant using n8n AI Agent nodes, Groq LLM function calling, and Google Sheets dynamic sync for real-time stock queries and purchase/sale updates.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-5 pb-5 pt-0">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">n8n</span>
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">Groq LLM</span>
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">Google Sheets API</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6: Production RAG System -->
+            <div class="project-card bg-[#111827] rounded-2xl shadow-xl border border-slate-800/90 overflow-hidden hover:border-emerald-500/50 transition flex flex-col justify-between group" data-category="automation">
+                <div>
+                    <div class="w-full bg-slate-950 p-4 flex justify-center items-center h-48 overflow-hidden relative">
+                        <img src="rag_sys.jpeg" alt="Production RAG System" class="h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white text-base">Production RAG Pipeline</h3>
+                            <span class="text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full">Pinecone / Gemini</span>
+                        </div>
+                        <p class="text-slate-400 text-xs mb-4 leading-relaxed">
+                            End-to-end PDF ingestion, chunking via recursive text splitter, 768-dim vector embeddings with Google Gemini, Pinecone vector store, and hallucination-free multi-turn Q&A.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-5 pb-5 pt-0">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">RAG</span>
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">Pinecone</span>
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">Gemini AI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7: ClientFlow-AI Email Automation -->
+            <div class="project-card bg-[#111827] rounded-2xl shadow-xl border border-slate-800/90 overflow-hidden hover:border-emerald-500/50 transition flex flex-col justify-between group" data-category="automation">
+                <div>
+                    <div class="w-full bg-slate-950 p-4 flex justify-center items-center h-48 overflow-hidden relative">
+                        <img src="client_flow.jpeg" alt="ClientFlow-AI n8n" class="h-full object-cover group-hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-5">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="font-bold text-white text-base">ClientFlow-AI Automation</h3>
+                            <span class="text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-2.5 py-0.5 rounded-full">Email / Groq</span>
+                        </div>
+                        <p class="text-slate-400 text-xs mb-4 leading-relaxed">
+                            Event-driven email processor capturing incoming Gmail triggers, ultra-fast intent classification via Groq LLM chain, conditional switch routing, and multi-sheet webhook sync.
+                        </p>
+                    </div>
+                </div>
+                <div class="px-5 pb-5 pt-0">
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">n8n</span>
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">Gmail API</span>
+                        <span class="text-[11px] font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-0.5 rounded-md">LLM Chain</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-16 bg-[#111827]/40 border-y border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-center text-white mb-8">Certifications & Honors</h2>
+            <div class="max-w-2xl mx-auto space-y-3">
+                <div class="bg-[#111827] p-4 rounded-xl shadow-lg flex items-center justify-between border border-slate-800">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-purple-500/10 text-purple-400 border border-purple-500/20 p-2.5 rounded-lg text-sm"><i class="fas fa-certificate"></i></div>
+                        <div>
+                            <h3 class="font-bold text-white text-sm">National IT Skill Competency Test (NSCT)</h3>
+                            <p class="text-xs text-slate-400">Higher Education Commission (HEC) • Qualified</p>
+                        </div>
+                    </div>
+                    <span class="text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-full">Qualified</span>
+                </div>
+                <div class="bg-[#111827] p-4 rounded-xl shadow-lg flex items-center justify-between border border-slate-800">
+                    <div class="flex items-center space-x-3">
+                        <div class="bg-purple-500/10 text-purple-400 border border-purple-500/20 p-2.5 rounded-lg text-sm"><i class="fas fa-award"></i></div>
+                        <div>
+                            <h3 class="font-bold text-white text-sm">Mobile App Development Course</h3>
+                            <p class="text-xs text-slate-400">Bano Qabil Program</p>
+                        </div>
+                    </div>
+                    <span class="text-xs font-semibold text-purple-300 bg-purple-500/10 border border-purple-500/20 px-2.5 py-1 rounded-full">Completed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-extrabold text-white mb-3">Let's Connect</h2>
+        <p class="text-slate-400 mb-8 text-sm">Available for Mobile App, Web, or AI/n8n Automation engineering roles & projects.</p>
+        
+        <div class="inline-flex flex-wrap justify-center items-center gap-5 bg-[#111827] px-8 py-5 rounded-2xl shadow-2xl border border-slate-800 text-sm">
+            <a href="mailto:laibashehzadi905@gmail.com" class="flex items-center space-x-2 text-slate-300 hover:text-purple-400 transition">
+                <i class="fas fa-envelope text-purple-400"></i>
+                <span class="font-medium">laibashehzadi905@gmail.com</span>
+            </a>
+            <span class="text-slate-700">|</span>
+            <a href="https://www.linkedin.com/in/laibashehzadi905/" target="_blank" class="flex items-center space-x-2 text-slate-300 hover:text-purple-400 transition">
+                <i class="fab fa-linkedin text-purple-400"></i>
+                <span class="font-medium">LinkedIn</span>
+            </a>
+            <span class="text-slate-700">|</span>
+            <a href="https://github.com/Laiba905" target="_blank" class="flex items-center space-x-2 text-slate-300 hover:text-purple-400 transition">
+                <i class="fab fa-github text-purple-400"></i>
+                <span class="font-medium">GitHub</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-6 text-center text-xs border-t border-slate-900">
+        <p>&copy; 2026 Laiba Shehzadi | Mobile, Web & Automation Portfolio.</p>
+    </footer>
+
+    <!-- Filter JS Script -->
+    <script>
+        function filterProjects(category) {
+            const cards = document.querySelectorAll('.project-card');
+            const buttons = document.querySelectorAll('.filter-btn');
+            
+            buttons.forEach(btn => {
+                btn.className = 'filter-btn bg-slate-800 text-slate-300 border border-slate-700 px-5 py-2.5 rounded-full text-xs font-semibold hover:bg-slate-700 transition';
+            });
+            event.target.className = 'filter-btn active-filter bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-5 py-2.5 rounded-full text-xs font-semibold shadow-lg shadow-purple-600/30 transition';
+
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
